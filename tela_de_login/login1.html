@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/login1.css">
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Entre</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <div id="login_box" >
+            <div id="login_header">
+                <span>Entrar</span>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+
+            </div>
+            <div class="input_box">
+                <input type="text" maxlength="10" id="user" class="input-field" required>
+                <label for="user" class="label">
+                    Usuário
+                </label>
+                <i class="bx bx-user icon"></i>
+            </div>
+            <div class="input_box">
+                <input type="password" maxlength="8" id="password" class="input-field" required>
+                <label for="pass" class="label">
+                    Senha
+                </label>
+                <i class="bx bx-lock icon"></i>
+            </div>
+            <div class="remember-forgot">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember">
+                    <label for="remember">Lembrar-me</label>
+                </div>
+                <div class="forgot">
+                    <a href="#">Esqueceu sua senha?</a>
+                </div>
+            </div>
+            <div class="input_box">
+                <input type="submit" class="input-submit" value="Entrar">
+            </div>
+            <div class="resgister">
+                <span>Não possui uma conta? <a href="../tela_de_cadastro/cadastro.html">Registre-se</a></span>
+                <span>Voltar para a « <a href="../index.html">Tela inicial</a> »</span>
+
+            </div>
+        </div>
+    </div>
+<script src="login1.js"></script>
+
+</body>
+</html>
