@@ -3,13 +3,66 @@ body {
     font-family: Poppins;
 }
 
+/* ***** NAV ***** */
+
+nav {
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #fff;
+}
+
+.loginButton {
+    display: flex;
+    align-items: end;
+    justify-content: right;
+    float: right;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+.loginButton:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.seach {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.searchInput {
+    border: none;
+    background-color: transparent;
+}
+
+.searchInput::placeholder {
+    color: lightgray;
+}
+
+/* ***** NAV ***** */
+
 svg {
     width: 30px;
 }
 
 a {
     text-decoration: none;
-    color: #2f2f2f;
+    color: #fff;
 }
 
 button {

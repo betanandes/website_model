@@ -9,6 +9,8 @@ body {
   margin: 0;
 }
 
+/* ***** NAV ***** */
+
 nav {
     background-color: #111;
     color: white;
@@ -51,7 +53,8 @@ nav {
 }
 
 .menuItem {
-    margin-right: 100px;
+    margin-top: 20px;
+    margin-right: 150px;
     cursor: pointer;
     color: lightgrey;
     font-weight: 400;
@@ -70,11 +73,23 @@ nav {
     
 }
 
-.loginButton:hover{
+/* .loginButton:hover{
     background-color: #fff;
     color: #000;
+} */
+
+.navBotton a{
+    text-decoration: none;
+    color: #fff;
+} 
+
+
+.navItem a {
+    text-decoration: none;
+    color: #fff;
 }
 
+/* ***** NAV ***** */
 
 .slider {
     background-image: url(https://images.unsplash.com/photo-1604147495798-57beb5d6af73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80);
